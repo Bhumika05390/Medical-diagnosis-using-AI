@@ -50,12 +50,10 @@ A web-based application built using **Streamlit** and **Machine Learning** to pr
    ```bash
    pip install -r requirements.txt
 3.**Run the Streamlit App**:
-    ```bash
     streamlit run app.py
 
 4.**Access the App**:
-    ```bash
-    Open your browser and go to http://localhost:8501.
+       Open your browser and go to http://localhost:8501.
 
 ---
 
@@ -68,17 +66,17 @@ A web-based application built using **Streamlit** and **Machine Learning** to pr
 ---
 
 ## Project Structure
-
-disease-prediction-system/
-├── Models/                     # Pre-trained machine learning models
-│   ├── diabetes_model.sav
-│   ├── heart_disease_model.sav
-│   ├── parkinsons_model.sav
-│   ├── lungs_disease_model.sav
-│   └── Thyroid_model.sav
-├── app.py                      # Main Streamlit application file
-├── requirements.txt            # List of dependencies
-└── README.md                   # Project documentation
+   
+     disease-prediction-system/ 
+    ├── Models/ # Pre-trained machine learning models
+    │ ├── diabetes_model.sav
+    │ ├── heart_disease_model.sav
+    │ ├── parkinsons_model.sav
+    │ ├── lungs_disease_model.sav
+    │ └── Thyroid_model.sav
+    ├── app.py # Main Streamlit application file
+    ├── requirements.txt # List of dependencies
+    └── README.md # Project documentation
 
 ---
 
