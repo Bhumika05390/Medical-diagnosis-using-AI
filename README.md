@@ -47,11 +47,13 @@ A web-based application built using **Streamlit** and **Machine Learning** to pr
    git clone https://github.com/Bhumika05390/Medical-diagnosis-using-AI.git
    cd Medical-diagnosis-using-AI
 2. **Install Dependencies**:
-bash
+   ```bash
 pip install -r requirements.txt
 3.**Run the Streamlit App**:
-bash
+  ``bash
 streamlit run app.py
+
 4.**Access the App**:
+  ```bash
 Open your browser and go to http://localhost:8501.
    
