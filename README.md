@@ -48,12 +48,57 @@ A web-based application built using **Streamlit** and **Machine Learning** to pr
    cd Medical-diagnosis-using-AI
 2. **Install Dependencies**:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 3.**Run the Streamlit App**:
-  ``bash
-streamlit run app.py
+    ```bash
+    streamlit run app.py
 
 4.**Access the App**:
-  ```bash
-Open your browser and go to http://localhost:8501.
-   
+    ```bash
+    Open your browser and go to http://localhost:8501.
+
+---
+
+## Usage
+1. **Select the disease** you want to predict from the dropdown menu.
+2. **Enter the required health parameters** in the input fields.
+3. **Click the "Test Result" button** to get the prediction.
+4. The system will display whether the person is likely to have the disease or not.
+
+---
+
+## Project Structure
+
+disease-prediction-system/
+├── Models/                     # Pre-trained machine learning models
+│   ├── diabetes_model.sav
+│   ├── heart_disease_model.sav
+│   ├── parkinsons_model.sav
+│   ├── lungs_disease_model.sav
+│   └── Thyroid_model.sav
+├── app.py                      # Main Streamlit application file
+├── requirements.txt            # List of dependencies
+└── README.md                   # Project documentation
+
+---
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+1. **Fork the repository**.
+2. **Create a new branch** (`git checkout -b feature/YourFeatureName`).
+3. **Commit your changes** (`git commit -m 'Add some feature'`).
+4. **Push to the branch** (`git push origin feature/YourFeatureName`).
+5. **Open a pull request**.
+
+---
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+- **Dataset sources**: [Kaggle](https://www.kaggle.com/), [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).
+- **Streamlit** for the amazing web framework.
+- **Scikit-learn** for providing machine learning tools.
+
