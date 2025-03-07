@@ -1,4 +1,4 @@
-# Disease Prediction System
+# Ai-Powered Medical Diagnosis System
 
 ![Project Logo](https://www.strategyand.pwc.com/m1/en/strategic-foresight/sector-strategies/healthcare/ai-powered-healthcare-solutions/img01-section1.jpg) <!-- Replace with your logo or image -->
 
@@ -44,6 +44,6 @@ A web-based application built using **Streamlit** and **Machine Learning** to pr
 ### Steps to Run the Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-usernam/disease-prediction-system.git
-   cd disease-prediction-system
+   git clone https://github.com/Bhumika05390/Medical-diagnosis-using-AI.git
+   cd Medical-diagnosis-using-AI
    
